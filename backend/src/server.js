@@ -12,4 +12,4 @@ app.use(express.json());
 app.use('/api/coins', coinsRouter);
 
 const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`✅ Backend running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));

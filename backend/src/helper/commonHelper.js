@@ -1,6 +1,7 @@
 import axios from "axios";
 import { COINGECKO_BASE, cache } from "../constants/index.js";
 
+// Function is created to get the count of total coins and cached that value
 export async function getTotalCoinCount() {
   const cacheKey = "total_coin_count";
   const cachedCount = cache.get(cacheKey);
